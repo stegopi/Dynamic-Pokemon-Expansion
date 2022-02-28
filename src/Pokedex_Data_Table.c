@@ -10796,6 +10796,19 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
+	
+	[NATIONAL_DEX_STEGO] =
+	{
+		.categoryName = {_S, _t, _e, _g, _o, _s, _a, _u, _r, _u, _s, _END},
+		.height = 169,
+		.weight = 6969,
+		.description = DEX_ENTRY_STEGO,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 0,
+		.pokemonOffset = 0,
+		.trainerScale = 0,
+		.trainerOffset = 0,
+	},
 };
 
 //Certain Pokemon forms can have alternate dex entries when viewed
